@@ -10,7 +10,7 @@ const Main = () => {
                 <Link to='/about'> <a href="" target="_blank" ><p>More About Me</p></a> </Link>
             </div>
             <div className="photo">
-                
+                <img src="./photos/135425220_154391026459811_847641596756833736_n-removebg-preview.png" alt="bb"/>
             </div>
             <div className="backphotos">
                 <img src="./photos/kisspng-computer-programming-computer-icons-programmer-com-amplify-5b3e45b05d3e08.4507760015308077283819.png" alt=""/>
