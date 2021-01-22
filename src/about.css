@@ -1,0 +1,432 @@
+
+               /* About Me Page */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body {
+    background-color: #111215;
+    box-sizing: border-box;
+   
+}
+
+.mainee{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    color: wheat;
+    margin-top: 5%;
+    font-family: 'Oswald', sans-serif;
+    grid-gap: 0px;
+    position: relative;
+    background-image: url(./images/copy_65113391.png);
+}
+
+.photoe img {
+    margin-left: 10%;
+}
+
+.socialse {
+    margin-top: 3% ;
+    font-size: 2rem;
+    margin-left: 170px;
+}
+
+.oo {
+    margin: 0px 7%;
+    color: wheat;
+}
+
+.oo:hover {
+    color: teal;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.titlee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10%;
+    text-align: left;
+    opacity: 1;
+}
+
+.titlee p a {
+    color: yellow;
+    text-decoration: none;
+}
+
+.title-anim {
+    opacity: 1;
+    transition: 4s;
+    animation: tit 2s ease  both;
+}
+
+@keyframes tit {
+    from { transform: translateX(50px); }
+    to { transform: translateX(0px); }
+}
+
+.titlee h1 {
+    font-size: 5rem;
+}
+
+.titlee p {
+    font-size: 2rem;
+    padding-top: 25px;
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 15rem;
+}
+.more h3 {
+    text-align: center;
+    color: wheat;
+    margin: 20px 50px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: teal;
+    border-radius: 10px;
+    padding: 5px;
+    color: #edc478;;
+}
+
+.skills {
+    position: absolute;
+    top: 5rem;
+    opacity: 1;
+    background-color: #7D7070;
+    width: 60%;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.skills .fab {
+    color: wheat;
+    padding: 10px 7px;
+    font-size: 1.7rem;
+}
+
+.html, .css, .javascript, .bootstrap, .react {
+    display: flex;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px 10px;
+    color: #edc478;
+}
+
+.edu {
+    position: absolute;
+    top: 5rem;
+    opacity: 1;
+    background-color: #7D7070;
+    width: 60%;
+    border-radius: 15px;
+    color: wheat;
+}
+
+.edu h5 {
+    padding: 10px;
+    font-size: 1.4rem;
+}
+
+.edu h5 span {
+    color: #edc478;
+    font-size: 1.2rem;
+}
+
+.aa {
+    opacity: 1;
+    transition: 2s;
+}
+
+
+@media only screen and (max-width:1000px){
+    
+    .photoe img {
+        margin-left: 10%;
+        width: 400px;
+    }
+
+    .socialse {
+        margin-top: 3% ;
+        font-size: 2rem;
+        margin-left: 130px;
+    }
+
+    .oo {
+        margin: 0px 7%;
+        color: wheat;
+    }
+
+    .oo:hover {
+        color: teal;
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+
+    .titlee {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 10%;
+        text-align: left;
+        opacity: 1;
+    }
+
+    .title-anim {
+        opacity: 1;
+        transition: 4s;
+        animation: tit 2s ease  both;
+    }
+
+    @keyframes tit {
+        from { transform: translateX(50px); }
+        to { transform: translateX(0px); }
+    }
+
+    .titlee h1 {
+        font-size: 4rem;
+    }
+
+    .titlee p {
+        font-size: 1.5rem;
+        padding-top: 25px;
+    }
+
+    .more {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-bottom: 22rem;
+    }
+    
+    
+}
+
+
+@media only screen and (max-width: 850px) {
+    .photoe img {
+        margin-left: 10%;
+        width: 300px;
+    }
+    
+    .socialse {
+        margin-top: 3% ;
+        font-size: 2rem;
+        margin-left: 90px;
+    }
+    
+    .oo {
+        margin: 0px 7%;
+        color: wheat;
+    }
+    
+    .oo:hover {
+        color: teal;
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    
+    .titlee {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 10%;
+        text-align: left;
+        opacity: 1;
+    }
+    
+    .titlee-anim {
+        opacity: 1;
+        transition: 4s;
+        animation: tit 2s ease  both;
+    }
+    
+    @keyframes tit {
+        from { transform: translateX(50px); }
+        to { transform: translateX(0px); }
+    }
+    
+    .titlee h1 {
+        font-size: 3rem;
+    }
+    
+    .titlee p {
+        font-size: 1.3rem;
+        padding-top: 25px;
+    }
+
+    .socials-footer {
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+
+    .photoe img {
+        margin-left: 10%;
+        width: 210px;
+    }
+    
+    .socialse {
+        margin-top: 3% ;
+        font-size: 1.2rem;
+        margin-left: 70px;
+    }
+    
+    .oo {
+        margin: 0px 7%;
+        color: wheat;
+    }
+    
+    .oo:hover {
+        color: teal;
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    
+    .titlee {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 5%;
+        text-align: left;
+        opacity: 1;
+       
+    }
+    
+    .title-anim {
+        opacity: 1;
+        transition: 4s;
+        animation: tit 2s ease  both;
+    }
+    
+    @keyframes tit {
+        from { transform: translateX(50px); }
+        to { transform: translateX(0px); }
+    }
+    
+    .titlee h1 {
+        font-size: 3rem;
+    }
+    
+    .titlee p {
+        font-size: 0.8rem;
+        padding-top: 25px;
+    }
+
+    .more h3 {
+        text-align: center;
+        color: wheat;
+        margin: 20px 50px;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+
+        
+    .edu h5 {
+        padding: 10px;
+        font-size: 1.2rem;
+    }
+    
+    .edu h5 span {
+        color: #edc478;
+        font-size: 0.9rem;
+    }
+
+    .html, .css, .javascript, .bootstrap, .react {
+        display: flex;
+        font-size: 0.9rem;
+        text-align: center;
+        padding-top: 10px;
+        color: #edc478;
+    }
+
+    
+    footer {
+        grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    }
+    
+}
+
+@media only screen and (max-width: 400px){
+
+    .photoe img {
+        margin-left: 17%;
+        width: 210px;
+    }
+
+    .socialse {
+        margin-top: 3% ;
+        font-size: 1.2rem;
+        margin-left: 76px;
+    }
+    
+    
+    .titlee{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0% auto;
+        text-align: center;
+        opacity: 1;
+        width: 80%;
+    }
+    
+    .title-anim {
+        opacity: 1;
+        transition: 4s;
+        animation: tit 2s ease  both;
+    }
+    
+    @keyframes tit {
+        from { transform: translateX(50px); }
+        to { transform: translateX(0px); }
+    }
+    
+    .titlee h1 {
+        font-size: 3rem;
+    }
+    
+    .titlee p {
+        font-size: 1rem;
+        padding-top: 25px;
+    }
+
+        
+    .skills {
+       
+        width: 80%;
+        
+    }
+
+
+    .html, .css, .javascript, .bootstrap, .react {
+        display: flex;
+        font-size: 0.7rem;
+        text-align: center;
+        padding-top: 10px;
+        color: #edc478;
+    }
+
+        
+    .edu h5 {
+        padding: 10px;
+        font-size: 1rem;
+    }
+    
+    .edu h5 span {
+        color: #edc478;
+        font-size: 0.7rem;
+    }
+
+}
