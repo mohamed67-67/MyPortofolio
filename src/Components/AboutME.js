@@ -10,7 +10,7 @@ const AboutMe = () => {
         <section>
             <div class="mainee">
                 <div className="photoe">
-                    <img src="./photos/135425220_154391026459811_847641596756833736_n-removebg-preview.png" alt=""/>
+                    <img src="./photos\Cool Kids - Study.png" alt=""/>
                     <div className="socialse">
                         <a target="_blank" href="https://www.facebook.com/mohamed.sharkawey.7/"><i className="fab oo fa-facebook-f"></i></a> 
                         <a target="_blank" href="https://twitter.com/sharkawey393"><i className="fab oo fa-twitter"></i></a>
