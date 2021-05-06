@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Ubuntu:wght@300;400;500;700&display=swap');
 
 body {
-    background-color: #111215;
+    background-color: #accbe1;
     box-sizing: border-box;
-   
+    overflow-x: hidden;
 }
 
 .main {
+    background-color : #cee5f2;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
-    color: wheat;
-    margin-top: 12%;
-    font-family: 'Amatic SC', cursive;
+    color: #283740;
+    margin: 10%  auto;
+    font-family: 'Ubuntu', sans-serif;
     grid-gap: 0px;
     position: relative;
     background-image: url(./images/copy_65113391.png);
+    width: 97%;
+    border-radius: 15px;
 }
 
 .title {
@@ -27,11 +31,11 @@ body {
 }
 
 .title h1 {
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 .title p {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .title a {
@@ -40,7 +44,7 @@ body {
 }
 
 .title a P{
-    background-color: #6d5252;
+    background-color: #637081;
     width: fit-content;
     border-radius: 15px;
     padding: 2px 10px;
@@ -51,8 +55,7 @@ body {
 }
 
 .title a P:hover {
-    background-color: #7d7070;
-    color: #ffb4b4;
+    background-color: #536b78;
     transform: scale(1.02);
     transition: 0.5s;
 }
@@ -102,27 +105,27 @@ body {
 
 .photo img {
     width: 400px;
-    border-radius: 50%;
-    border: 4px solid #6b5e5e;
+    /* border-radius: 50%;
+    border: 4px solid #6b5e5e; */
 }
 
 .portofolio {
-    margin-top: 5%;
     background-image: url(./images/copy_65113391.png);
 }
 
 .portofolio h2 {
     text-align: center;
-    color: wheat;
-    margin: 10px 0px;
-    font-size: 5rem;
-    font-family: 'Amatic SC', cursive;
+    color: #283740;
+    margin: 55px 0px;
+    font-size: 4rem;
+    font-family: 'Ubuntu', sans-serif;
+    
 }
 
 .card {
     width: 25rem !important;
-    background-color: wheat;
-    color: #244452;
+    background-color: #7c98b3;
+    color: wheat;
 }
 
 .card:hover{
@@ -158,10 +161,10 @@ body {
 }
 
 footer {
-    background-color: #7D7070;
+    background-color: #cee5f2;
     width: 95%;
     border-radius: 15px;
-    margin: auto;
+    margin: 20px auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     padding: 2%;
@@ -169,7 +172,7 @@ footer {
 }
 
 .get h5 {
-    color: wheat;
+    color: #283740;
     font-size: 2rem;
 }
 
@@ -178,11 +181,11 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     font-size: 1.5rem;
-    
+    color: #283740;
 }
 
 .socials-footer .fab {
-    color: wheat;
+    color: #283740;
 }
 
 .phone {
@@ -191,13 +194,12 @@ footer {
     justify-content: center;
 }
 .phone .fas, .mail .fas {
-    color: wheat;
+    color: #283740;
     font-size: 1.5rem;
     padding-bottom: 5px;
 }
 
 .phone p, .mail p {
-    color: wheat;
     font-size: 1.2rem;
     padding: 5px 0px;
 }
@@ -205,8 +207,8 @@ footer {
 @media only screen and (max-width: 965px) {
     .photo img {
         width: 300px;
-        border-radius: 50%;
-        border: 4px solid #6b5e5e;
+        /* border-radius: 50%;
+        border: 4px solid #6b5e5e; */
     }
     
         
@@ -215,13 +217,13 @@ footer {
     }
 
     .title p {
-        font-size: 2.1rem;
+        font-size: 1.5rem;
     }
 }
 
 @media only screen and (max-width: 850px) {
     .get h5 {
-        color: wheat;
+        color: #283740;
         font-size: 2rem;
     }
 
@@ -235,8 +237,8 @@ footer {
 
     .photo img {
         width: 200px;
-        border-radius: 50%;
-        border: 4px solid #6b5e5e;
+        /* border-radius: 50%;
+        border: 4px solid #6b5e5e; */
     }
     
         
@@ -245,7 +247,7 @@ footer {
     }
 
     .title p {
-        font-size: 1.6rem;
+        font-size: 1rem;
     }
         
     .porto-cards {
@@ -254,8 +256,8 @@ footer {
     }
     .card {
         width: auto;
-        background-color: wheat;
-        color: #244452;
+        /* background-color: wheat;
+        color: #244452; */
     }
     .card-img-top {
         height: auto;
@@ -270,10 +272,10 @@ footer {
         
     .portofolio h2 {
         text-align: center;
-        color: wheat;
+        color: #244452;
         margin: 10px 0px;
         font-size: 3rem;
-        font-family: 'Amatic SC', cursive;
+        font-family: 'Ubuntu', sans-serif;
     }
 
         
@@ -286,8 +288,8 @@ footer {
 @media only screen and (max-width: 450px) {
     .photo img {
         width: 150px;
-        border-radius: 50%;
-        border: 4px solid #6b5e5e;
+        /* border-radius: 50%;
+        border: 4px solid #6b5e5e; */
     }
 
     .title h1 {
@@ -295,7 +297,7 @@ footer {
     }
 
     .title p {
-        font-size: 1.2rem;
+        font-size: 0.6rem;
     }
 
         
@@ -315,8 +317,8 @@ footer {
 
     .card {
         width: 200px !important;
-        background-color: wheat;
-        color: #244452;
+        /* background-color: wheat;
+        color: #244452; */
     }
 
     

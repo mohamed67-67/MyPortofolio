@@ -1,22 +1,49 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import AboutMe from './AboutME'
+import Projects from './Projects'
+import Skills from './Skills'
+import {motion} from 'framer-motion'
+
 const Main = () => {
+
+    const variant = {
+        initial : {
+            x : '100vw'
+        },
+        animate : {
+            x : 0,
+            // transition : {
+            //     duration : 1
+            // }
+        }
+    }
+
+    
     return ( 
-        <div className="main">
+        <section>
+
+        <motion.div
+            variants={variant}
+            initial='initial'
+            animate='animate'
+         className="main">
             <div className="title">
                 <p>Hello !</p>
                 <h1>I'm Sharkawey</h1>
                 <p>a Front End Developer</p>
-                <Link to='/about'> <a href="" target="_blank" ><p>More About Me</p></a> </Link>
             </div>
             <div className="photo">
-                <img src="./photos/135425220_154391026459811_847641596756833736_n-removebg-preview.png" alt="bb"/>
+                <img  src="./photos/Lumii_20210202_185842592.png" alt="bb"/>
             </div>
             <div className="backphotos">
-                <img src="./photos/kisspng-computer-programming-computer-icons-programmer-com-amplify-5b3e45b05d3e08.4507760015308077283819.png" alt=""/>
-                <img src="./photos/kisspng-computer-icons-clip-art-5b3cf284656100.5078865115307209004153.png" alt=""/>
+                <motion.img drag src="./photos/kisspng-computer-programming-computer-icons-programmer-com-amplify-5b3e45b05d3e08.4507760015308077283819.png" alt=""/>
             </div>
-        </div>
+        </motion.div>
+
+        <AboutMe/>
+        <Skills/>
+        <Projects/>
+        </section>
     );
 }
  

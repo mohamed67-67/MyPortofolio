@@ -3,38 +3,48 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Ubuntu:wght@300;400;500;700&display=swap');
 
-body {
-    background-color: #111215;
+/* body {
+    background-color: #a2adcf;
     box-sizing: border-box;
    
+} */
+
+.sectionAbout{
+    background-image: url(./images/copy_65113391.png);
+    background-size: auto;
 }
 
 .mainee{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    color: wheat;
     margin-top: 5%;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     grid-gap: 0px;
     position: relative;
-    background-image: url(./images/copy_65113391.png);
+    margin: 10%  auto;
+    width: 97%;
+    border-radius: 15px;
+    background-color: #cee5f2;
 }
 
 .photoe img {
-    margin-left: 10%;
+    padding-top: 15px;
+    border-radius: 15px;
+    margin-left: 26%;
 }
 
 .socialse {
     margin-top: 3% ;
     font-size: 2rem;
-    margin-left: 170px;
+    margin-left: 115px;
 }
 
 .oo {
     margin: 0px 7%;
-    color: wheat;
+    color: #283740;
 }
 
 .oo:hover {
@@ -50,10 +60,15 @@ body {
     margin-right: 10%;
     text-align: left;
     opacity: 1;
+    color: #283740;
 }
 
 .titlee p a {
-    color: yellow;
+    color: #ff5722;
+    text-decoration: none;
+}
+.titlee p a:hover {
+    color: green;
     text-decoration: none;
 }
 
@@ -69,7 +84,8 @@ body {
 }
 
 .titlee h1 {
-    font-size: 5rem;
+    font-size: 3rem;
+    text-align: center;
 }
 
 .titlee p {
@@ -80,36 +96,42 @@ body {
 .more {
     display: flex;
     justify-content: center;
-    position: relative;
-    margin-bottom: 15rem;
+    
+    
 }
-.more h3 {
-    text-align: center;
-    color: wheat;
+
+.moree{
+    display: flex;
+    justify-content: center;
+}
+.moree h3 {
     margin: 20px 50px;
     cursor: pointer;
+    padding: 5px;
+    
 }
 
 .active {
-    background-color: teal;
+    /* font-size: 5rem; */
+    background-color: #536b78;
     border-radius: 10px;
-    padding: 5px;
-    color: #edc478;;
+    color: #cee5f2;;
 }
 
+
 .skills {
-    position: absolute;
+    /* position: absolute; */
     top: 5rem;
     opacity: 1;
-    background-color: #7D7070;
+    background-color: #cee5f2;
     width: 60%;
     border-radius: 15px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.skills .fab {
-    color: wheat;
+.skills .fab, .fas {
+    color: #536b78;
     padding: 10px 7px;
     font-size: 1.7rem;
 }
@@ -119,17 +141,17 @@ body {
     font-size: 1.5rem;
     text-align: center;
     padding: 10px 10px;
-    color: #edc478;
+    color:#637081;
 }
 
 .edu {
-    position: absolute;
+    /* position: absolute; */
     top: 5rem;
     opacity: 1;
-    background-color: #7D7070;
+    background-color: #cee5f2;
     width: 60%;
     border-radius: 15px;
-    color: wheat;
+    color: #637081;
 }
 
 .edu h5 {
@@ -138,7 +160,7 @@ body {
 }
 
 .edu h5 span {
-    color: #edc478;
+    color: #637081;
     font-size: 1.2rem;
 }
 
@@ -163,7 +185,7 @@ body {
 
     .oo {
         margin: 0px 7%;
-        color: wheat;
+        color: #283740;
     }
 
     .oo:hover {
@@ -193,7 +215,7 @@ body {
     }
 
     .titlee h1 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .titlee p {
@@ -205,7 +227,6 @@ body {
         display: flex;
         justify-content: center;
         position: relative;
-        margin-bottom: 22rem;
     }
     
     
@@ -221,12 +242,12 @@ body {
     .socialse {
         margin-top: 3% ;
         font-size: 2rem;
-        margin-left: 90px;
+        margin-left: 40px;
     }
     
     .oo {
         margin: 0px 7%;
-        color: wheat;
+        color: #283740;
     }
     
     .oo:hover {
@@ -256,7 +277,7 @@ body {
     }
     
     .titlee h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     
     .titlee p {
@@ -280,12 +301,12 @@ body {
     .socialse {
         margin-top: 3% ;
         font-size: 1.2rem;
-        margin-left: 70px;
+        margin-left: 30px;
     }
     
     .oo {
         margin: 0px 7%;
-        color: wheat;
+        color:  #283740;
     }
     
     .oo:hover {
@@ -316,7 +337,8 @@ body {
     }
     
     .titlee h1 {
-        font-size: 3rem;
+        font-size: 1.5rem;
+        padding-top: 1rem;
     }
     
     .titlee p {
@@ -339,7 +361,7 @@ body {
     }
     
     .edu h5 span {
-        color: #edc478;
+        color: #283740;
         font-size: 0.9rem;
     }
 
@@ -348,7 +370,7 @@ body {
         font-size: 0.9rem;
         text-align: center;
         padding-top: 10px;
-        color: #edc478;
+        color: #283740;
     }
 
     
@@ -368,7 +390,7 @@ body {
     .socialse {
         margin-top: 3% ;
         font-size: 1.2rem;
-        margin-left: 76px;
+        margin-left: 40px;
     }
     
     
@@ -394,7 +416,9 @@ body {
     }
     
     .titlee h1 {
-        font-size: 3rem;
+        margin-top: 1rem;
+        padding-top: 1rem;
+        font-size: 1.5rem;
     }
     
     .titlee p {
@@ -415,7 +439,7 @@ body {
         font-size: 0.7rem;
         text-align: center;
         padding-top: 10px;
-        color: #edc478;
+        color: #283740;
     }
 
         
@@ -425,8 +449,12 @@ body {
     }
     
     .edu h5 span {
-        color: #edc478;
+        color: #283740;
         font-size: 0.7rem;
     }
 
+}
+
+.hidebody {
+    display: none;
 }

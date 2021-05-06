@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import {$} from 'react-jquery-plugin'
 
 const Edu = () => {
+
+    
+       
+    
     return ( 
-        <div className='more'>
+        <div className='more hidebody'>
             <h3 className='active'>Education</h3> 
 
             <div className="edu">

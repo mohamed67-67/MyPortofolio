@@ -4,13 +4,14 @@ import AboutMe from './Components/AboutME';
 import Footer from './Components/Footer';
 import Main from './Components/Main'
 import Projects from './Components/Projects';
+import Skills from './Components/Skills';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Switch>
-          <Route path='/' exact> <Main/> <Projects/> </Route>
+          <Route path='/' exact> <Main/>  </Route>
           <Route path='/about'> <AboutMe/> </Route>
         </Switch>
         <Footer/>

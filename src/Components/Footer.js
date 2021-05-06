@@ -8,6 +8,7 @@ const Footer = () => {
             <a target="_blank" href="https://www.facebook.com/mohamed.sharkawey.7/"><i className="fab fa-facebook-f"></i></a> 
             <a target="_blank" href="https://twitter.com/sharkawey393"><i className="fab fa-twitter"></i></a>
             <a target="_blank" href="https://www.instagram.com/mohamedsharkawey/"><i className="fab fa-instagram"></i></a>
+            <a target="_blank" href="https://github.com/mohamed67-67"> <i class="fab oo fa-github"></i> </a>
         </div>
         <div className="phone">
             <i className="fas fa-mobile"></i>
