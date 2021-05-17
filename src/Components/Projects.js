@@ -45,6 +45,13 @@ const Projects = () => {
                   <a target="_blank" href="https://mohamed67-67.github.io/KinderGarten/." >Take a Round</a>
                 </div>
               </div>
+            <div className="card">
+                <img src="./photos/banks.png" className="card-img-top" alt="..."/>
+                <div className="card-body">
+                  <h5 className="card-title">Banks erp system-'React,redux,material-UI</h5>
+                  <a target="_blank" href="erp-system.netlify.app" >Take a Round</a>
+                </div>
+              </div>
         </div>
     </div>
      );
