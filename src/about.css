@@ -459,3 +459,17 @@
     display: none;
     transition: 1s;
 }
+
+@media only screen and (max-width : 350px){
+
+    .skills {
+        width: 60%;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+   
+
+    .moree h3{
+        font-size: 1.25rem;
+    }
+}

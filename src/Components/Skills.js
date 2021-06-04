@@ -34,14 +34,14 @@ const Skills = () => {
         <section data-aos='fade'>
             <div className="moree">
 
-                <h3 className="btnn1 ">Skills</h3> 
-                <h3 className='btnn2 active' >Education</h3> 
+                <h3 className="btnn1 active">Skills</h3> 
+                <h3 className='btnn2 ' >Education</h3> 
             </div>
             <div className="more">
 
 
 
-                <div className="skills hidebody">
+                <div className="skills ">
                     <div className="html">
                         <i className="fab fa-html5"></i>
                         <p>HTML</p>
@@ -91,7 +91,7 @@ const Skills = () => {
                         
             <div className="more">
 
-                <div className="edu">
+                <div className="edu hidebody">
                     <div className="uni">
                         <h5>Univesity : <span>Alexandria uni Faculty of Engineering</span> </h5>
                     </div>

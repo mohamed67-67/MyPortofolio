@@ -14,8 +14,6 @@ const Projects = () => {
         easing: 'ease-in-out', 
         once: false, 
         mirror: true, 
-        anchorPlacement: 'center-center', 
-
     })
 })
 
@@ -45,13 +43,31 @@ const Projects = () => {
                   <a target="_blank" href="https://mohamed67-67.github.io/KinderGarten/." >Take a Round</a>
                 </div>
               </div>
+        </div>
+        <h4>Minor Projects</h4>
+        <div className="porto-cards">
+          <div className="card">
+              <img src="./photos/pol.png" className="card-img-top" alt="..."/>
+              <div className="card-body">
+                <h5 className="card-title">reserveing Theater Seats system-'React,redux,material-UI</h5>
+                <a target="_blank" href="https://x-kom-assignment.netlify.app/" >Take a Round</a>
+              </div>
+            </div>
+            <div className="card">
+                <img src="./photos/port.png" className="card-img-top" alt="..."/>
+                <div className="card-body">
+                  <h5 className="card-title">Oredering List Restaurant-'React,redux,material-UI</h5>
+                  <a target="_blank" href="https://hex-ocean-task.netlify.app" >Take a Round</a>
+                </div>
+            </div>
             <div className="card">
                 <img src="./photos/banks.png" className="card-img-top" alt="..."/>
                 <div className="card-body">
-                  <h5 className="card-title">Banks erp UI system-'React,redux,material-UI</h5>
+                  <h5 className="card-title">Banks erp UI system-'React,redux,material-UI-Table</h5>
                   <a target="_blank" href="https://erp-system.netlify.app" >Take a Round</a>
                 </div>
-              </div>
+            </div>
+
         </div>
     </div>
      );
