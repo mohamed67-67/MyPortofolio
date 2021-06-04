@@ -126,13 +126,21 @@ body {
     width: 25rem !important;
     background-color: #7c98b3;
     color: wheat;
+    overflow: hidden;
+    transition: 0.7s;
 }
 
 .card:hover{
     transform: scale(1.02);
     transition: 0.7s;
+    box-shadow: 10px 10px 30px 5px #244452;
 }
 
+.card:hover img{
+    transform: scale(0.97);
+    transition: 1s;
+    object-fit: contain;
+}
 .porto-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(26rem,1fr));

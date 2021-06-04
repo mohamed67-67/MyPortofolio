@@ -49,11 +49,11 @@ const Skills = () => {
                     <div className="css">
                         <i className="fab fa-css3-alt"></i>
                         <i class="fab fa-sass"></i>
-                        <p>CSS & basics of Sass</p>
+                        <p>CSS & Sass (basics)</p>
                     </div>
                     <div className="javascript">
                         <i className="fab fa-js"></i>
-                        <p>Java Script and jquery</p>
+                        <p>Java Script</p>
                     </div>
                     <div className="bootstrap">
                         <i className="fab fa-bootstrap"></i>
@@ -61,7 +61,7 @@ const Skills = () => {
                     </div>
                     <div className="react">
                         <i className="fab fa-react"></i>
-                        <p>React</p>
+                        <p>React.js</p>
                     </div>
                     <div className="react">
                         <i class="fas fa-code "></i>
@@ -73,7 +73,15 @@ const Skills = () => {
                     </div>
                     <div className="react">
                         <i class="fas fa-code"></i>
-                        <p>basics of Material-UI</p>
+                        <p>Material-UI (basics)</p>
+                    </div>
+                    <div className="react">
+                        <i class="fas fa-code"></i>
+                        <p>SQL</p>
+                    </div>
+                    <div className="react">
+                        <i class="fas fa-code"></i>
+                        <p>JQuery (basics) </p>
                     </div>
 
                     

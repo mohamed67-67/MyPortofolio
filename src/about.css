@@ -457,4 +457,5 @@
 
 .hidebody {
     display: none;
+    transition: 1s;
 }

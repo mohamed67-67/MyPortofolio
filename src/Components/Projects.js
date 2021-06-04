@@ -48,8 +48,8 @@ const Projects = () => {
             <div className="card">
                 <img src="./photos/banks.png" className="card-img-top" alt="..."/>
                 <div className="card-body">
-                  <h5 className="card-title">Banks erp system-'React,redux,material-UI</h5>
-                  <a target="_blank" href="erp-system.netlify.app" >Take a Round</a>
+                  <h5 className="card-title">Banks erp UI system-'React,redux,material-UI</h5>
+                  <a target="_blank" href="https://erp-system.netlify.app" >Take a Round</a>
                 </div>
               </div>
         </div>
